@@ -1,0 +1,68 @@
+#summary, #majorPoints{
+    font-family:Arial, sans-serif;
+    height:35px;
+    width:200px;
+    margin:10px;
+    color:white;
+    font-weight:bold;
+    border:none;
+    font-weight:bolder;
+    border-radius:10px;
+    box-shadow:rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image:linear-gradient(135deg,#AF40FF, #5B42F3,#00DDEB);
+    transition:background-color 0.3s ease;
+}
+#summary{
+    margin-bottom:5px;
+}
+#majorPoints{
+    margin-top:10px;
+}
+#summary,#majorPoints:hover{
+    cursor:pointer;
+}
+#loading{
+    background-image:url("loading.gif");
+    width:120px;
+    height:120px;
+    background-size:contain;
+    margin:auto;
+    display:none;
+}
+#content {
+    font-family:Arial, sans-serif;
+    text-align-last:left;
+    display:none;
+    line-height:125%;
+    font-size:14px; 
+    margin-bottom:5px;
+    margin-left:8px;
+    margin-right:8px;
+}
+#copy{
+    font-family:Arial, sans-serif;
+    display:none;
+    width:200px;
+    height:35px;
+    justify-content:center;
+    border-radius:10px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:5px;
+    border:none;
+    color:white;
+    font-weight:bold;
+    box-shadow:rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image:linear-gradient(135deg,#AF40FF, #5B42F3,#00DDEB);
+    transition:background-color 0.3s ease;
+}
+#copy:hover{
+    cursor:pointer;
+}
+#heading{
+    font-family:Arial, sans-serif;
+    text-align:center;
+    justify-content:center;
+    display:none;
+    margin-bottom:5px;
+}
